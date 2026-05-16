@@ -18,7 +18,7 @@
     <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
     <div id="title">Maxandus Fletcher <i>she/he/they</i></div><br>
     <div id="links">
-        <a href="#skills">Attributes</a>
+        <a href="#skills">My Attributes</a>
         <a href="#work" style="margin:0px 60px;">My Works</a>
         <a href="#contact">Get in Touch</a>
     </div>
@@ -36,15 +36,13 @@
     <div id="portfolio">
              <div id="skills">
                  <h1>attributes.</h1>   
-                 <div>
-                        
+                 <div>                        
                     <i><p>
                         As a Philadelphia native I was radicalized at a young age although it would be many years before I understood what it meant to act and organize effectively. It took me even longer to realize that I was trans. Despite my christian upbringing I have been able to find new found love and joy in my own skin.
                     </p>
                     <p>
-                            I am a highly motivated, passionate and hardworking software developer. Incredibly experienced in the full life cycle of the software development process including requirements gathering, designing, coding, testing and maintenance. Quick learner, willing to embrace new challenges, and eager to learn and grow as a software developer. 
-                        </p>
-                        </i>
+                        I am a highly motivated, passionate and hardworking software developer. Incredibly experienced in the full life cycle of the software development process including requirements gathering, designing, coding, testing and maintenance. Quick learner, willing to embrace new challenges, and eager to learn and grow as a software developer. 
+                    </p></i>
                     <br>
                     <br>
                     <div class="bullet">
@@ -86,7 +84,7 @@
                  <div>
                     <img src="assets/budget.png" alt="Budget Application Screenshot" style="width: 70%; height: 40vh; ">
                  </div>
-                 <button onclick="window.open('https://github.com/xandydandy/budgetapplicationexample/tree/main')" class="btn_two">check out my code on github</button>
+                 <button onclick="window.open('https://github.com/xandydandy/budgetapplicationexample/tree/main')" class="btn_one">check out my code on github</button>
                  <!-- <button class="btn_one">visit project</button> -->
                 </div>
 
@@ -94,12 +92,18 @@
                  <h2>Fitness App</h2>
                  <div>For this example I included a video to showcase that some of it's functionality works. This is a tool that stored users log in information and kept track of their workout data. There was a set list of workouts with arbitrary time set for how long a work out would take to complete. The website would also store the workout data if you ended the routine before it was fully complete. Unfortunately the server that stored the user log in data is no longer operational. However the routines can be stored in cache as you can see so some of the old data persists between sessions. 
                  </div>
-                 <div>
-                 <iframe width="70%" height="40vh" src="https://www.youtube-nocookie.com/embed/ny2TyzLqP-M?si=7A5-yPA9qdnGNT_X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 <br>
+                 <button onclick="window.open('https://www.youtube.com/watch?v=ny2TyzLqP-M')" class="btn_one">check out the video!</button>
+                 <button onclick="window.open('https://github.com/xandydandy/fitnessappdemo')" class="btn_one">check out my code on github!</button>
+                </div>
+
+                <div class="project">
+                 <h2>MachoMan & Pipsqueak</h2>
+                 <div> This is a project I am incredibly proud of. Its a video game that requires two players to collaborate and coordinate their movements together. Machoman and Pipsqueak both have special abilities and objectives that only they can accomplish. This 2D sidescroller will test your communication and strategies skills as you attempt to overcome the challenges I have created for you! 
                  </div>
                  <br>
-                 <button class="btn_one">visit project</button>
-                 <button class="btn_two">code</button>
+                 <button onclick="window.open('https://www.youtube.com/watch?v=ny2TyzLqP-M')" class="btn_one">check out the LIVE demo! <b><i>coming soon</i></b></button>
+                 <button class="btn_one">check out my code on github!</button>
                 </div>
 
              </div>
@@ -107,24 +111,24 @@
             </br>
             </br>
               <div id="contact">
-                 <h1>contact.</h1> 
-                 <form>
-                     <input type="text" placeholder="name" required>
-                     <input type="email" placeholder="email" required><br>
-                     <textarea placeholder="your message" required rows="5"></textarea><br>
-                     <button class="btn_one">send</button>
-                 </form> 
-                 <div id="details">
+                 <h1>contact me.</h1> 
+                 <br>
+                 <button class="btn_one" onclick="sendEmailAddress()">Click here to copy my email address!</button>
+                 <p><i>I can't wait to hear from you!</i></p>
+                 <div>
+                    <img src="assets/portrait.jpg" alt="Mexandus the Wizard" style="width: 50%; height: 50%; ">
+                 </div>
+                 <!-- <div id="details">
                     <a class="btn_social"><i class="fas fa-phone"></i></a>
                     <a class="btn_social"><i class="fas fa-at"></i></a>
                     <a class="btn_social"><i class="fab fa-twitter"></i></a>
                     <a class="btn_social"><i class="fab fa-dribbble"></i></a>
-                 </div>   
+                 </div>    -->
              </div>
     </div>
-    <div id="footer">
+    <!-- <div id="footer">
         Made with the assistance of <br><br> <a href="https://imfunniee.github.io">imfunniee</a>
-    </div>
+    </div> -->
 <script src="index.js" type="text/javascript"></script>
 </body>
 </html>

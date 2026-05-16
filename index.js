@@ -33,3 +33,9 @@ setTimeout(function(){
       $("#loading").css("display","none");
     },800);
 },1450);
+
+function sendEmailAddress(){
+    navigator.clipboard.writeText("maxandydandy@proton.me");
+
+    alert("Copied Maxandus' email to the clipboard!: \n\n maxandydandy@proton.me")
+}

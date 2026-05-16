@@ -68,7 +68,8 @@ body,html {
     border-bottom:2px solid transparent;
 }
 #links a:hover {
-    border-bottom:2px solid #cecece;
+    color: #9900ff;
+    border-bottom:2px solid #9900ff;
 }
 #middle {
     width:100%;
@@ -179,9 +180,10 @@ body,html {
     margin:30px 10px;
 }
 .btn_one:hover {
-    background:white;
+    background:#4f007c;
     cursor:pointer;
     color:#000;
+    border:2px solid #000;
 }
 .project div {
     font-weight:normal;
@@ -204,7 +206,8 @@ body,html {
 .btn_two:hover {
     background:transparent;
     cursor:pointer;
-    color:#fff;
+    color:#4f007c;
+    border:2px solid #000;
 }
 #details {
     margin:6vh 0px;
