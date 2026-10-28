@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,130 +8,179 @@
     <title>M. Fletcher</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <!--processing js links for interactive game-->
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.13/lib/p5.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.13/lib/addons/p5.sound.min.js"></script>
 </head>
+
 <body>
     <div id="loading">
         <div id="spinner"></div>
     </div>
     <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
-    <div id="title">Maxandus Fletcher <br><i>she/he/they</i></div><br>
-    <div id="links">
-        <a href="#skills">My Attributes</a>
-        <a href="#work" style="margin:0px 60px;">My Works</a>
-        <a href="#contact">Get in Touch</a>
-    </div>
+        <div id="title">Maxandus Fletcher <br><i>she/he/they</i></div><br>
+        <div id="links">
+            <a href="#skills">My Attributes</a>
+            <a id="open-btn" aria-controls="panel" aria-expanded="false">My Experience</a>
+            <a href="#work" style="margin:0px 60px;">My Projects</a>
+            <a href="#contact">Get in Contact</a>
+        </div>
     </div>
 
     <center>
-    <div id="middle">
-        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
-            Activist * Programmer * Innovator  <br>
+        <div id="middle">
+            <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
+                Visionary * Programmer * Innovator <br>
+            </div>
         </div>
-    </div>
     </center>
 
     <div id="portfolio">
-             <div id="skills">
-                 <h1>attributes.</h1>   
-                 <div>                        
-                    <i><p>
-                        As a Philadelphia native I was radicalized at a young age although it would be many years before I understood what it meant to act and organize effectively. It took me even longer to realize that I was trans. Despite my christian upbringing I have been able to find new found love and joy in my own skin.
+        <div id="skills">
+            <h1>attributes.</h1>
+            <div>
+                <i>
+                    <p>
+                        As a Philadelphia native I was radicalized at a young age although it would be many years before
+                        I understood what it meant to act and organize effectively. It took me even longer to realize
+                        that I was trans. Despite my christian upbringing I have been able to find new found love and
+                        joy in my own skin.
                     </p>
                     <p>
-                        I am a highly motivated, passionate and hardworking software developer. Incredibly experienced in the full life cycle of the software development process including requirements gathering, designing, coding, testing and maintenance. Quick learner, willing to embrace new challenges, and eager to learn and grow as a software developer. 
-                    </p></i>
-                    <br>
-                    <br>
-                    <div class="bullet">
-                        <h2>
-                            <u>Strong Communicator</u>
-                        </h2>
-                            <p>
-                                From either running multiple clubs on their college campus, to organizing multiple political movements, structural communication is Maxandus' game. Effective at connecting people from different backgrounds and acting as a bridge to help better facilitate large networks and getting things done.
-                            </p>
-                    </div>
-                    <br>    
-                    <div class="bullet">
-                        <h2>
-                            <u>Detailed Critical Thinker</u>
-                        </h2>
-                            <p>
-                                While working on computers the task that needs to be fixed isn’t always straight forward, it requires an analytical mind to solve these problems. Can predict problems that arise later and write code to anticipate complications that may not be obvious right away.
-                            </p>
-                    </div>
-                    <br>    
-                    <div class="bullet">
-                        <h2>
-                            <u>Experienced Programmer</u>
-                        </h2>
-                            <p>
-                                Incredibly compotent in many programming languages such as: Java, JavaScript, Python, HTML/CSS, PHP, SQL, C#, Visual Basic, .Net Development, ReactJS, GIT and more. Additionally skilled at many computer applications including but not limited to: Microsoft Office, Adobe Suite, Visual Studio, SQL Server Management Studio, Microsoft Office, AWS, Twin Cat TcXaeShell, and Zoom
-                            </p>
-                    </div>
-                 </div> 
-             </div>
-         
-              <div id="work">
-                 <h1>my works.</h1>
+                        I am a highly motivated, passionate and hardworking software developer. Incredibly experienced
+                        in the full life cycle of the software development process including requirements gathering,
+                        designing, coding, testing and maintenance. Quick learner, willing to embrace new challenges,
+                        and eager to learn and grow as a software developer.
+                    </p>
+                </i>
+                <br>
+                <br>
+                <div class="bullet">
+                    <h2>
+                        <u>Strong Communicator</u>
+                    </h2>
+                    <p>
+                        From either running multiple clubs on their college campus, to organizing multiple political
+                        movements, structural communication is Maxandus' game. Effective at connecting people from
+                        different backgrounds and acting as a bridge to help better facilitate large networks and
+                        getting things done.
+                    </p>
+                </div>
+                <br>
+                <div class="bullet">
+                    <h2>
+                        <u>Detailed Critical Thinker</u>
+                    </h2>
+                    <p>
+                        While working on computers the task that needs to be fixed isn’t always straight forward, it
+                        requires an analytical mind to solve these problems. Can predict problems that arise later and
+                        write code to anticipate complications that may not be obvious right away.
+                    </p>
+                </div>
+                <br>
+                <div class="bullet">
+                    <h2>
+                        <u>Experienced Programmer</u>
+                    </h2>
+                    <p>
+                        Incredibly compotent in many programming languages such as: Java, JavaScript, Python, HTML/CSS,
+                        PHP, SQL, C#, Visual Basic, .Net Development, ReactJS, GIT and more. Additionally skilled at
+                        many computer applications including but not limited to: Microsoft Office, Adobe Suite, Visual
+                        Studio, SQL Server Management Studio, Microsoft Office, AWS, Twin Cat TcXaeShell, and Zoom
+                    </p>
+                </div>
+            </div>
+        </div>
 
-                 <div class="project">
-                 <h2>Budget Application</h2>
-                 <div>Shown below is a screenshot of a simple budget application I created during job as  proof of concept. The function of the project was that the user would add expenses and income into the website and it would calculate your total earnings for a given period of time. Originally the project used to maintain the data in between sessions but the server it was hosted form has been deleted.</div>
-                 <br>
-                 <div>
+        <div id="work">
+            <h1>my works.</h1>
+
+            <div class="project">
+                <h2>Budget Application</h2>
+                <div>Shown below is a screenshot of a simple budget application I created during job as proof of
+                    concept. The function of the project was that the user would add expenses and income into the
+                    website and it would calculate your total earnings for a given period of time. Originally the
+                    project used to maintain the data in between sessions but the server it was hosted form has been
+                    deleted.</div>
+                <br>
+                <div>
                     <img src="assets/budget.png" alt="Budget Application Screenshot" style="width: 70%; height: 40vh; ">
-                 </div>
-                 <button onclick="window.open('https://github.com/xandydandy/budgetapplicationexample/tree/main')" class="btn_one">check out my code on github</button>
-                 <!-- <button class="btn_one">visit project</button> -->
                 </div>
+                <button onclick="window.open('https://github.com/xandydandy/budgetapplicationexample/tree/main')"
+                    class="btn_one">check out my code on github</button>
+                <!-- <button class="btn_one">visit project</button> -->
+            </div>
 
-                <div class="project">
-                 <h2>Fitness App</h2>
-                 <div>For this example I included a video to showcase that some of it's functionality works. This is a tool that stored users log in information and kept track of their workout data. There was a set list of workouts with arbitrary time set for how long a work out would take to complete. The website would also store the workout data if you ended the routine before it was fully complete. Unfortunately the server that stored the user log in data is no longer operational. However the routines can be stored in cache as you can see so some of the old data persists between sessions. 
-                 </div>
-                 <br>
-                 <button onclick="window.open('https://www.youtube.com/watch?v=ny2TyzLqP-M')" class="btn_one">check out the video!</button>
-                 <button onclick="window.open('https://github.com/xandydandy/fitnessappdemo')" class="btn_one">check out my code on github!</button>
+            <div class="project">
+                <h2>Fitness App</h2>
+                <div>For this example I included a video to showcase that some of it's functionality works. This is a
+                    tool that stored users log in information and kept track of their workout data. There was a set list
+                    of workouts with arbitrary time set for how long a work out would take to complete. The website
+                    would also store the workout data if you ended the routine before it was fully complete.
+                    Unfortunately the server that stored the user log in data is no longer operational. However the
+                    routines can be stored in cache as you can see so some of the old data persists between sessions.
                 </div>
+                <br>
+                <button onclick="window.open('https://www.youtube.com/watch?v=ny2TyzLqP-M')" class="btn_one">check out
+                    the video!</button>
+                <button onclick="window.open('https://github.com/xandydandy/fitnessappdemo')" class="btn_one">check out
+                    my code on github!</button>
+            </div>
 
-                <div class="project">
-                 <h2>MachoMan & Pipsqueak</h2>
-                 <div> This is a project I am incredibly proud of. Its a video game that requires two players to collaborate and coordinate their movements together. Machoman and Pipsqueak both have special abilities and objectives that only they can accomplish. This 2D sidescroller will test your communication and strategies skills as you attempt to overcome the challenges I have created for you! 
-                 </div>
-                 <br>
-                 <button onclick="window.open('https://www.youtube.com/watch?v=ny2TyzLqP-M')" class="btn_one">check out the LIVE demo! <b><i>coming soon</i></b></button>
-                 <button onclick="window.open('https://github.com/xandydandy/machomanandpipsqueak')" class="btn_one">check out my code on github!</button>
+            <div class="project">
+                <h2>MachoMan & Pipsqueak</h2>
+                <div> This is a project I am incredibly proud of. Its a video game that requires two players to
+                    collaborate and coordinate their movements together. Machoman and Pipsqueak both have special
+                    abilities and objectives that only they can accomplish. This 2D sidescroller will test your
+                    communication and strategies skills as you attempt to overcome the challenges I have created for
+                    you!
                 </div>
+                <br>
+                <button onclick="window.open('https://www.youtube.com/watch?v=ny2TyzLqP-M')" class="btn_one">check out
+                    the LIVE demo! <b><i>coming soon</i></b></button>
+                <button onclick="window.open('https://github.com/xandydandy/machomanandpipsqueak')"
+                    class="btn_one">check out my code on github!</button>
+            </div>
 
-             </div>
-            </br>
-            </br>
-            </br>
-              <div id="contact">
-                 <h1>contact me.</h1> 
-                 <br>
-                 <button class="btn_one" onclick="sendEmailAddress()">Click here to copy my email address!</button>
-                 <p><i>I can't wait to hear from you!</i></p>
-                 <div>
-                    <img src="assets/portrait.jpg" alt="Mexandus the Wizard" style="width: 50%; height: 50%; ">
-                 </div>
-                 <!-- <div id="details">
+        </div>
+        </br>
+        </br>
+        </br>
+        <div id="contact">
+            <h1>contact me.</h1>
+            <br>
+            <button class="btn_one" onclick="sendEmailAddress()">Click here to copy my email address!</button>
+            <p><i>I can't wait to hear from you!</i></p>
+            <div>
+                <img src="assets/portrait.jpg" alt="Mexandus the Wizard" style="width: 50%; height: 50%; ">
+            </div>
+            <!-- <div id="details">
                     <a class="btn_social"><i class="fas fa-phone"></i></a>
                     <a class="btn_social"><i class="fas fa-at"></i></a>
                     <a class="btn_social"><i class="fab fa-twitter"></i></a>
                     <a class="btn_social"><i class="fab fa-dribbble"></i></a>
                  </div>    -->
-             </div>
+        </div>
     </div>
+    <div id="overlay"></div>
+
+    <aside id="panel" aria-hidden="true" aria-label="Side panel">
+        <header>
+            <button id="close-btn" aria-label="Close panel">&times;</button>
+        </header>
+        <!-- src is set on first open so the page isn't loaded until needed -->
+        <iframe id="panel-frame" title="Embedded content" data-src="https://example.com"></iframe>
+    </aside>
     <!-- <div id="footer">
         Made with the assistance of <br><br> <a href="https://imfunniee.github.io">imfunniee</a>
     </div> -->
-<script src="index.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="sliderframe.js" type="text/javascript"></script>
 </body>
+
 </html>
