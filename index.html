@@ -26,7 +26,7 @@
         <div id="title">Maxandus Fletcher <br><i>she/he/they</i></div><br>
         <div id="links">
             <a href="#skills">My Attributes</a>
-            <a id="open-btn" aria-controls="panel" aria-expanded="false">My Experience</a>
+            <a href="#header" id="open-btn" aria-controls="panel" aria-expanded="false">My Experience</a>
             <a href="#work" style="margin:0px 60px;">My Projects</a>
             <a href="#contact">Get in Contact</a>
         </div>
@@ -156,9 +156,9 @@
             <br>
             <button class="btn_one" onclick="sendEmailAddress()">Click here to copy my email address!</button>
             <p><i>I can't wait to hear from you!</i></p>
-            <div>
+            <!-- <div>
                 <img src="assets/portrait.jpg" alt="Mexandus the Wizard" style="width: 50%; height: 50%; ">
-            </div>
+            </div> -->
             <!-- <div id="details">
                     <a class="btn_social"><i class="fas fa-phone"></i></a>
                     <a class="btn_social"><i class="fas fa-at"></i></a>
@@ -173,14 +173,17 @@
         <header>
             <button id="close-btn" aria-label="Close panel">&times;</button>
         </header>
+        <div id="experience">
+
+        </div>
         <!-- src is set on first open so the page isn't loaded until needed -->
-        <iframe id="panel-frame" title="Embedded content" data-src="https://example.com"></iframe>
+        <iframe id="panel-frame" title="Embedded content"></iframe>
     </aside>
-    <!-- <div id="footer">
+    <div id="footer">
         Made with the assistance of <br><br> <a href="https://imfunniee.github.io">imfunniee</a>
-    </div> -->
-    <script src="index.js" type="text/javascript"></script>
-    <script src="sliderframe.js" type="text/javascript"></script>
+    </div>
+    <script src="js/index.js" type="text/javascript"></script>
+    <script src="js/sliderframe.js" type="text/javascript"></script>
 </body>
 
 </html>
