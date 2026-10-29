@@ -1,0 +1,165 @@
+
+#example1 {
+    width: 40%;
+    height: 10vh;
+    background-size: 100% auto;
+    background: url(assets/budget.png) center left fixed;
+    justify-content: center left;
+    display: block;
+    flex-direction: column;
+    padding-top: 20vh;
+}
+
+#tagline {
+    font-size: 50px;
+    width: 100%;
+}
+
+#portfolio {
+    width: 80%;
+    padding: 2% 10%;
+}
+
+#portfolio div h1 {
+    font-size: 40px;
+    background-image: linear-gradient(to left, #4f007c 0%, #9900ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% 500% !important;
+    -webkit-animation: Gradient 20s ease infinite;
+    -moz-animation: Gradient 20s ease infinite;
+    -o-animation: Gradient 20s ease infinite;
+    animation: Gradient 20s ease infinite;
+    font-family: 'Comfortaa', cursive;
+}
+
+#skills {
+    margin: 4vh 0px !important;
+    padding: 2vh 0px !important;
+}
+
+#work {
+    margin: 4vh 0px !important;
+    padding: 2vh 0px !important;
+}
+
+#contact {
+    margin: 4vh 0px !important;
+    padding: 2vh 0px !important;
+}
+
+#contact form {
+    width: 100%;
+}
+
+#contact form input {
+    width: 46%;
+    margin: 20px 1%;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 8px 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    transition: 0.4s ease-in-out;
+    color: #fff;
+}
+
+#contact form textarea {
+    width: 96%;
+    margin: 20px 1%;
+    padding: 8px 10px;
+    border: 0px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 8px 10px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    background: transparent;
+    resize: none;
+    transition: 0.4s ease-in-out;
+    color: #fff;
+}
+
+#contact form input:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+#contact form textarea:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.btn_one {
+    color: white;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    background: transparent;
+    transition: 0.4s ease-in-out;
+    margin: 30px 10px;
+}
+
+.btn_one:hover {
+    background: #4f007c;
+    cursor: pointer;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.project div {
+    font-weight: normal;
+}
+
+.bullet div {
+    margin-left: 5%;
+}
+
+.btn_two {
+    color: #000;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    background: #fff;
+    transition: 0.4s ease-in-out;
+    margin: 30px 10px;
+}
+
+.btn_two:hover {
+    background: transparent;
+    cursor: pointer;
+    color: #4f007c;
+    border: 2px solid #000;
+}
+
+#details {
+    margin: 6vh 0px;
+}
+
+.btn_social {
+    font-size: 18px;
+    color: #fff;
+    margin: 40px 20px;
+    padding: 15px 18px;
+    border-radius: 50%;
+    background: #000;
+    transition: 0.4s ease-in-out;
+}
+
+.btn_social:hover {
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
+

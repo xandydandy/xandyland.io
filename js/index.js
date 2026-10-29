@@ -15,7 +15,7 @@ $(document).ready(function () {
 var width = $(window).width();
 
 window.onscroll = function () {
-    if ((width >= 900)) {
+    if ((width >= 500)) {
         if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
             $("#middle").css("background-size", "125% auto");
         } else if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
